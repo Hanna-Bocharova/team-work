@@ -1,12 +1,15 @@
 @import './common';
+@import './base/base';
+@import './base/container';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/visually-hidden';
 
-
-@import './header-hero';
-@import './products';
-@import './about';
-
-@import './advantages';
-@import './gallery';
-@import './customer-reviews';
-@import './contacts';
-@import './footer';
+@import './layout/header-hero';
+@import './layout/products';
+@import './layout/about';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/customer-reviews';
+@import './layout/contacts';
+@import './layout/footer';
